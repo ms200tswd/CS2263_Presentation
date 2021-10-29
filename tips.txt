@@ -1,0 +1,21 @@
+1.
+@component
+	template: ` `; //for all js style
+// ``is for all hardcode code
+
+2. note
+databinding = commuication (connection between logical(server logic, typescript) and template(html) )
+
+2.1. note
+four different binding
+from ts to html
+	String Interpolation ({{data}})
+	Property Binding ([property ="data"])
+from html to ts
+	event binding ( (event)="experssion" )
+
+both two way binding:
+	( [(ngModel)] = "data" )
+
+3. note
+directives
